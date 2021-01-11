@@ -1,0 +1,79 @@
+/*Admin Panel Ana Menü Başlangıç*/
+*{
+    /*margin:0px;*/
+    padding:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#bdy
+{
+    background: black;
+    color: gainsboro;
+    
+}
+
+.blm1s1
+{
+    
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.menu
+{
+    border:1px solid;
+    border-radius: 20px;
+}
+.menu:hover .menuHeader h2
+{
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    transform: scale(1.2);
+    color: gainsboro;
+    
+    
+}
+.menu:hover 
+{
+    border:1px solid;
+    color: whitesmoke;
+    transform:  scaleY(1.2);
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+.menuHeader
+{
+    text-align: center;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.menuBody
+{
+    text-align: center;
+}
+.menuButton
+{
+    display: block;
+    margin: 5px;
+    color: whitesmoke;
+    padding:5px;
+    border-radius: 20px;
+}
+.menuButton:hover
+{
+    background: gainsboro;
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+    
+}
+
+/*Admin Panel Ana Menü Son*/
+
+footer#ftr
+{
+     margin-top:250px;
+}

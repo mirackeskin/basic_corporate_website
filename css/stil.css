@@ -1,0 +1,456 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Texturina', serif;
+}
+#kapsayici1
+{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/arkaPlan.jpg);
+    background-size: cover;
+}
+#satir1
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#resimKapsayici
+{
+    margin: auto;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    
+    
+}
+#resimKapsayici img
+{
+    border-radius: 500px;
+    width: 100%;
+    height: 100%;
+}
+#resimKapsayici img:hover
+{
+    transform:scale(1.2);
+}
+#kapsayici1 #satir1 div #resimYazisi h3
+{
+    margin-top: 50px;
+    font-size: 44px;
+    font-family: 'Texturina', serif;
+    
+    color: white;
+    text-align: center;
+    transform: rotateZ(-5deg);
+}
+#kapsayici1 #satir1 div #resimYazisi p
+{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Texturina', serif;
+    font-size: 16px;
+    
+}
+.socialmedia
+{
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.socialmedia a
+{
+    color: white;
+    padding: 2px;
+}
+.socialmedia a:hover
+{
+    color: gray;
+}
+
+/*Bölüm 2 Başlangıç*/
+section.blm2
+{
+    width: 100%;
+    /*height: 100vh;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section.blm2:hover .blm2s1Baslik
+{
+    transform:rotateZ(360deg);
+    transition-duration: 1.5s;
+}
+
+.blm2 div .blm2s1 div h1.blm2s1Baslik
+{
+  
+   /*margin-top: 200px;
+   margin-bottom: 100px;*/
+   text-align: center;
+   font-size: 50px;
+}
+.blm2 div .blm2s1 div div.bilgiKarti
+{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+.blm2 div .blm2s1 div div.hakkimdaKart
+{
+    margin: 15px;
+    
+}
+.blm2 div .blm2s1 div div.hakkimdaKart h2
+{
+    margin-bottom: 20px;
+}
+.blm2 div .blm2s1 div div.hakkimdaKart p
+{
+    font-size: 20px;
+    margin: 0px;
+    
+}
+/*
+@media(max-width:990px)
+{
+    section.blm2
+    {
+        width: 100%;
+        height: 1000px;
+        background: red;
+    }
+}
+@media(max-width:768px)
+{
+    section.blm2
+    {
+        width: 100%;
+        height: 1200px;
+        background: red;
+    }
+    .ozgecmissol
+    {
+        text-align: left;
+        background: green;
+    }
+}
+@media(max-width:524px)
+{
+    section.blm2
+    {
+        width: 100%;
+        height: 1500px;
+        background: red;
+    }
+}*/
+
+/*Bölüm 3 Başlangıç*/
+section.blm3
+{
+    background: transparent;
+    padding-bottom: 50px;
+}
+/*bu animasyonda kaldırılabilir??*/
+section.blm3:hover .ozgecmisbaslik
+{
+    transform: rotateX(360deg);
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+ section.blm3 div .blm3s1 div #ozgecmisbaslikdiv 
+ {
+     margin-top: 100px;
+     margin-bottom: 100px;
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     
+ }
+ section.blm3 div .blm3s1 div #ozgecmisbaslikdiv .ozgecmisbaslik
+ {
+     font-size: 50px;
+ }
+
+ .ozgecmis
+ {
+     margin: 25px;
+     
+ }
+ .ozgecmis:hover
+ {
+     transform: scale(1.2);
+     
+ }
+
+ /* -->Bu kısmı javascript ile sayaç kullanarak yaparım bu sayede animasyon bitmeden tekrar başlamaz..
+ section.blm3:hover
+ {
+     transform:rotateX(360deg);
+     transition-duration: 1s;
+     transition-delay: 1s;
+     transition-timing-function: ease-out; 
+ }*/
+
+ div.ozgecmis h2
+ {
+     margin:15px 0px;
+ }
+ div.ozgecmis h5
+ {
+     color:gray;
+     margin: 10px 0;
+ }
+
+.ozgecmissol
+{
+    text-align: right;
+}
+.ozgecmissag
+{
+    text-align: left;
+}
+
+/*Bölüm 4 Başlangıç*/
+ 
+.blm4
+{
+    background: #282828;
+    color: whitesmoke;
+}
+/*emin değilim silinebilir alttaki animasyon*/
+.blm4:hover .blm4baslik
+{
+    
+    transform: rotateZ(360deg) ;
+    transition-duration: 2s;
+}
+
+.blm4 div .blm4s1
+{
+    padding: 50px 0px;
+}
+
+.blm4 div .blm4s1 div .blm4baslik
+{
+    text-align: center;
+    padding: 25px;
+}
+
+.hobikart
+{
+    padding: 10px;
+    margin: 5px; 
+}
+.hobikart:hover
+{
+    background: #282828;
+    border: solid 1px black;
+    transform: scale(1.1) rotateY(360deg);
+    transition-duration: 2s;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #888888;
+}
+.hobikart .hobikartust
+{
+    text-align: center;
+    font-size: 60px;
+        
+}
+
+.hobikart .hobikartust i
+{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    background: white;
+    border: solid 2px black;
+    border-radius: 100%;
+    color: #202020;
+}
+
+.hobikartalt
+{
+    text-align: center;
+    padding: 40px 10px;
+}
+
+.hobikartalt h3
+{
+    padding: 10px;
+}
+.hobikartalt p
+{
+    padding: 10px;
+}
+
+/*Bölüm-5 Başlangıç*/
+.blm5
+{
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.blm5:hover .blm5baslik
+{
+    transform: rotateX(360deg);
+    transition-duration: 1.5s;
+}
+.blm5 .blm5baslik
+{
+    text-align: center;
+    padding: 45px;
+}
+
+.blm5 .progreskapsayici
+{
+    padding: 10px;
+    
+}
+
+.progreskapsayici .progresbaryukseklik
+{
+    height: 10px;
+}
+
+/*Bölüm 6 Başlangıç*/
+
+.blm6
+{
+    background: #282828;
+    color: white;
+}
+.blm6:hover .teklifkapsayici
+{
+    transform:rotateZ(-360deg);
+    transition-duration: 2s;
+}
+.blm6 .teklifkapsayici
+{
+    padding:100px 50px;
+    text-align: center;
+}
+.blm6 .teklifkapsayici h1
+{
+    
+    padding:25px
+}
+.blm6 .teklifkapsayici h5
+{
+    padding: 20px;
+    
+}
+.blm6 .teklifkapsayici .teklifbutton
+{
+    background: white;
+    color: #282828;
+    border-radius: 25px;
+    border: solid 1px black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+}
+.blm6 .teklifkapsayici .teklifbutton:hover
+{
+    background: #282828;
+    border: solid 1px white;
+    color: white;
+    box-shadow: 0px 0px 15px 1px gray;
+}
+
+/*Bölüm 7 Başlangıç*/
+.blm7
+{
+    padding-bottom: 75px;
+}
+.blm7 .blm7baslik
+{
+    text-align: center;
+    padding: 50px;
+}
+
+.blm7:hover .blm7baslik
+{
+    transform: rotateY(360deg);
+    transition-duration: 1.2s;
+}
+
+/* Bölüm 8 Başlangıç*/
+
+.blm8
+{
+    background: #282828;
+    color: honeydew;
+    height: 80px;
+}
+.blm8 h6
+{
+    padding: 25px;
+    text-align: right;
+}
+
+
+
+
+/* media etiketlerini en alta koy.. */
+
+@media(max-width:990px)
+{
+    section.blm2
+    {
+        width: 100%;
+        
+        
+    }
+}
+@media(max-width:768px)
+{
+    section.blm2
+    {
+        width: 100%;
+        
+        
+        
+    }
+    
+    .ozgecmissol
+    {
+        text-align: left;
+        
+    }
+}
+@media(max-width:524px)
+{
+    section.blm2
+    {
+        width: 100%;
+        
+        
+    }
+}
+
+@media(max-height:500px) and (max-width:524px)
+{
+    #kapsayici1
+    {
+        height: 600px;
+        
+    }
+}
+@media(max-height:500px) 
+{
+    #kapsayici1
+    {
+        height: 550px;
+        
+    }
+}
