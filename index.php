@@ -282,7 +282,7 @@
             <div class="teklifkapsayici">
               <h1>İş Teklifi !</h1>
               <h5>İş teklifleri için bana mail atabilirsiniz yada herhangi bir sorunuz varsa alttan yazabilirsiniz..</h5>
-              <a href="#" class="btn teklifbutton">Mail ile İletişim</a>
+              <a href="mailForm.php" class="btn teklifbutton">Mail ile İletişim</a>
             </div>
           </div>
           <div class="col-md-2"></div>
